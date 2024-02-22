@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.container{
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    
+}
+.lift-container{
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+    height: 100vh;
+    width: 68%;
+    margin: 15px;
+    border-radius: 10px;
+   
+}
+.right-container{
+    background-image: linear-gradient( 111.4deg,  rgb(13, 13, 52) 6.5%, rgba(27,24,113,1) 93.2% );
+    height: 100vh;
+    width: 27%;
+    margin: 12px;   
+    border-radius: 10px;
+    
+    
+}
+.white{
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+h3{
+    color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+#level{
+    margin-bottom: 50px;
+}
+p{
+    font-size:larger;
+    margin-bottom: 15px;
+
+}
+.btn{
+    height : 10rem;
+    width: 10rem;
+    border-radius: 25%;
+    border: 10px solid rgb(13, 9, 52);
+    margin: 1rem;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: #ffee02;
+}
+.green{
+    background-color: rgb(46, 253, 5);
+}
+.violet{
+    background-color: #de0ddee4;
+}
+
+/* js styling */
+
+.flash{
+    background-color:rgba(14, 4, 103, 0.128);
+}
+
+.helpbtn{
+    background-color: aqua;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    height: 1.5rem;
+    width: 4.7rem;
+    border-radius: 5px;
+    margin-top: 6vh;
+    cursor: pointer;
+}
+
+.colorsOfHelp{
+    border: 2px solid rgb(255, 253, 251);
+    background-color: #0f1b57;
+    color: rgb(255, 255, 255);
+    height: 7rem;
+    width: 18rem;
+    border-radius: 5px;
+    margin: 1rem 1rem  0;
+    overflow-wrap: break-word;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.okbtn{
+    width: 4em;
+    color: rgb(4, 4, 67);
+    border-radius: 4px;
+}
+.startbtn{
+    font-family: 'Oswald', sans-serif;
+    background-color: aqua;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    height: 2rem;
+    width: 5rem;
+    border-radius: 6px;
+
+}
